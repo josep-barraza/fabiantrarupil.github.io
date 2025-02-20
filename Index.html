@@ -8,14 +8,16 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="icon" href="Imagen de perfil.jpg">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="Assets/style.css">
     <title>CV Fabián Trarupil</title>
 </head>
 <center>
 
     <body>
-        <header style="color: #1E1E1E;">
-            <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="color: #1E1E1E ;">
-                <div class="container-fluid">
+        <header>
+            <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg navbar-light bg-dark" style="color: #1E1E1E ;">
+
                     <a class="navbar-brand" href="#" style="color: #F0F0F0 ;">DevNexusCode - F6M7</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
@@ -30,140 +32,132 @@
                                     href="portafolio.html">Portafolio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-light " href="#">Educación</a>
+                                <a class="nav-link active text-light " href="#formacionAcademica">Formación
+                                    Académica</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active text-light " href="#">Experiencia</a>
+                                <a class="nav-link active text-light " href="#experienciaLaboral">Antecedentes
+                                    Laborales</a>
                             </li>
                         </ul>
                     </div>
-                </div>
-            </nav>
-            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%"
-                data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
-                <p>...</p>
             </div>
+            </nav>
         </header>
         <main>
-            <div>
-                <h1 style="color: #007BFF;">Currículum Vitae</h1>
-                <h2 style="color: aquamarine;">Fabián Marcelo Trarupil Fernández</h2>
-                <h3 style="color:forestgreen "> DevNexusCode - F6M7</h3>
-                <h4>Datos Personales</h4>
-                <h6> | Correo Electrónico | fabian.ft1993@gmail.com | </h6>
-                <h6>| Teléfono de Contacto | 9-26406253 | </h6>
-                <h6>| Perfil LinkedIn | <a href="https://www.linkedin.com/in/fabián-marcelo-trarupil-fernández"
-                        target="_blank">LinkedIn </a>|</h6>
-                <h6>| Perfil Credly |<a href="https://www.credly.com/users/fabian-trarupil.07d27523"
-                        target="_blank">Credly</a> |
-                </h6>
-                <h6>
-                    | Portafolio | <a href="./portafolio.html" target="_blank">Portafolio </a> |
+            <div class="container-fluid">
+                <div class="f-flex flex-row mb-3">
+                    <div class="p-2">
+                        <h1>Currículum Vitae</h1>
+                        <h2>Fabián Marcelo Trarupil Fernández</h2>
+                        <h3>DevNexusCode - F6M7</h3>
+                        <h4>Datos Personales</h4>
+                        <h6>Correo Electrónico fabian.ft1993@gmail.com </h6>
+                        <h6>Teléfono de Contacto 9-26406253</h6>
+                        <h6>Perfil LinkedIn <a href="https://www.linkedin.com/in/fabián-marcelo-trarupil-fernández"
+                                target="_blank">LinkedIn </a></h6>
+                        <h6>Perfil Credly <a href="https://www.credly.com/users/fabian-trarupil.07d27523"
+                                target="_blank">Credly</a>
+                        </h6>
+                        <h6>Portafolio <a href="./portafolio.html" target="_blank">Portafolio </a></h6>
+                    </div>
 
-                </h6>
-                <h3>Resumen Profesional</h3>
-                <div class="d-inline-flex p-2">
-
-                    <h5 class="" style="color: #F0F0F0;">
+                    <div class="card-body1">
+                        <h3>Resumen Profesional</h3>
                         <p>
                             Ingeniero en Informática de la Universidad Tecnológica de Chile con más de 2 años de
-                            experiencia
-                            en
-                            áreas clave como Quality Assurance y Seguridad. Actualmente, me encuentro en un BootCamp de
-                            FullStack JavaScript, fortaleciendo mis habilidades en desarrollo web y ampliando mis
+                            experiencia en
+                            áreas clave como Quality Assurance y Seguridad. Actualmente, me encuentro en un
+                            BootCamp
+                            de
+                            FullStack JavaScript, fortaleciendo mis habilidades en desarrollo web y ampliando
+                            mis
                             competencias
                             técnicas para contribuir de manera integral en equipos de software. Además, estoy en
                             constante
-                            formación, cursando certificaciones relevantes como Fundamentos del Desarrollo Web (IBM
+                            formación, cursando certificaciones relevantes como Fundamentos del Desarrollo Web
+                            (IBM
                             SkillBuilds)
-                            e Inglés Personalizado (AICC), lo que complementa mi perfil profesional y refuerza mi
+                            e Inglés Personalizado (AICC), lo que complementa mi perfil profesional y refuerza
+                            mi
                             compromiso
                             con
                             el aprendizaje continuo y la excelencia.
                         </p>
-                    </h5>
+                    </div>
                 </div>
-                <div class="d-inline-flex p-2">
+                <div class="d-flex flex-column mb-3">
                     <div class="p-2">
-                        <h4>Formación Académica</h4>
-
-                        <div>
-                        BootCamp FullStack JavaScript | Desafío Latam | En Curso
+                        <section id="formacionAcademica">
+                            <h3>Formación Académica</h3>
+                            <div class="contenedor-icono">
+                                <i class="bi bi-book"></i>
+                            </div>
+                            <div class="p-2">
+                                BootCamp FullStack JavaScript Desafío Latam En Curso
+                            </div>
+                            <div class="p-2">
+                                Ingeniería en Informática Universidad Tecnológica de Chile Santiago 2011-2016
+                            </div>
+                            <div class="p-2">
+                                Enseñanza Media Colegio Piamarta Santiago 2007 - 2010
+                            </div>
+                        </section>
                     </div>
 
-                    <div>
-                        | Ingeniería en Informática | Universidad Tecnológica de Chile | Santiago | 2011
-                        -
-                        2016 |
-                    </div>
-                    <div>
 
-                        | Enseñanza Media | Colegio Piamarta | Santiago | 2007 - 2010 |
-
-                    </div>
-                    <div class="contenedor-icono">
-                        
-                        <i class="bi bi-infinity"></i>
-                    </div>
-                    </div>
-                    <div class="p-2">
-                        <h4>Antecedentes Laborales</h4>
-
-                        <h6>
-                            | Verisure | Las Condes | Analista Técnico de Calidad | Febrero 2023 - Febrero
+                    <div class="d-flex flex-column mb-3">
+                        <div class="p-2">
+                            <section id="experienciaLaboral">
+                                <h3>Antecedentes Laborales</h3>
+                                <div class="contenedor-icono">
+                                    <i class="bi bi-bank"></i>
+                                </div>
+                        </div>
+                        <div class="p-2">Verisure Las Condes Analista Técnico de Calidad <br> Febrero 2023 - Febrero
                             2024
-                            |
-
-                        </h6>
-                        <h6>
-                            | Sonda | Santiago | QA Tester | Enero 2022-Enero 2023 |
-                        </h6>
-                        <h6>
-                            | IBM | Providencia | Operador de Monitoreo N2 | Febrero 2018 - Enero 2022 |
-
-                        </h6>
-                        <h6>
-                            | Ascensores Schindler | Providencia | Operador de Monitoreo N2 | Marzo 2016 -
-                            Junio
-                            2016 |
-
-                        </h6>
+                        </div>
+                        <div class="p-2">Sonda Santiago QA Tester <br>Enero 2022-Enero 2023</div>
+                        <div class="p-2">IBM Providencia Operador de Monitoreo N2 <br> Febrero 2018 - Enero 2022</div>
+                        <div class="p-2">Ascensores Schindler Providencia Practica Profesional <br> Marzo 2016 - Junio
+                            2016
+                        </div>
+                        </section>
                     </div>
                 </div>
 
-
-                <h4>Cursos</h4>
-
-                <ul>
-                    <h6>| AgileTA Advocate |
-                    </h6>
-                    <h6>| Fundamentos profesionales del desarrollo de software |
-                    </h6>
-                    <h6>| Big Data Foundations |
-                    </h6>
-                    <h6>| Data Science Foundations |
-                    </h6>
-                    <h6>| Think Like a Hacker |
-                    </h6>
-                </ul>
+                <h3>Certificaciones</h3>
+                <div class="contenedor-icono">
+                    <i class="bi bi-mortarboard"></i>
+                </div>
+                <div class="d-flex flex-row mb-3 justify-content-evenly">
+                    <div class="p-2"><img src="AgileTA-Advocate.png" alt="" class="img2"></div>
+                    <div class="p-2"><img src="Fundamentos Data Science.png" alt="" class="img2"></div>
+                    <div class="p-2"><img src="Fundamentos Big Data.png" alt="" class="img2"></div>
+                </div>
+                <div class="d-flex flex-row mb-3 justify-content-evenly">
+                    <div class="p-2"><img src="Exploration into Mindfulness.png" alt="" class="img2"></div>
+                    <div class="p-2"><img src="Projects.png" alt="" class="img2"></div>
+                    <div class="p-2"><img src="python.png" alt="" class="img2"></div>
+                </div>
 
                 <h4>Información Adicional</h4>
-
-                <ul>
-                    <h6>| Idiomas | Inglés Oral y Escrito | Nivel Intermedio |
-                    </h6>
-                    <h6>| Software | Networker | Excel | Nivel Intermedio |
-                    </h6>
-                    <h6>| Otros | Masoterapia Integral | Danza AfroLatina |
-                    </h6>
-                    <h6>
-
-                    </h6>
-                </ul>
+                <div class="contenedor-icono">
+                    <i class="bi bi-pencil"></i>
+                </div>
+                <div class="d-flex flex-row">
+                    <div class="p-2">
+                        <h6>| Idiomas | Inglés Oral y Escrito | Nivel Intermedio |</h6>
+                    </div>
+                    <div class="p-2">
+                        <h6>| Software | Networker | Excel | Nivel Intermedio |</h6>
+                    </div>
+                    <div class="p-2">
+                        <h6>| Otros | Masoterapia Integral | Danza AfroLatina |</h6>
+                    </div>
+                </div>
+            </div>
+            </div>
         </main>
         <footer>
             <div class="card text-center">
@@ -177,11 +171,6 @@
 
         </footer>
 </center>
-<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-infinity"
-    viewBox="0 0 16 16">
-    <path
-        d="M5.68 5.792 7.345 7.75 5.681 9.708a2.75 2.75 0 1 1 0-3.916ZM8 6.978 6.416 5.113l-.014-.015a3.75 3.75 0 1 0 0 5.304l.014-.015L8 8.522l1.584 1.865.014.015a3.75 3.75 0 1 0 0-5.304l-.014.015zm.656.772 1.663-1.958a2.75 2.75 0 1 1 0 3.916z" />
-</svg>
 </body>
 
 </html>
